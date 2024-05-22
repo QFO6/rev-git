@@ -1,0 +1,5 @@
+# API to operator git
+GET    /api/git/:modelName/:id/commit/:commitHash                          GitAPI.CommitContent
+POST   /api/git/:modelName/:id/commit                                      GitAPI.Commit
+GET    /api/git/:modelName/:id/history                                     GitAPI.History
+
